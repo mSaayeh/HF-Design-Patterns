@@ -1,7 +1,7 @@
-package chapter_1.testing_duck_code.ducks;
+package chapter_1.ducks;
 
-import chapter_1.testing_duck_code.fly.FlyBehavior;
-import chapter_1.testing_duck_code.quack.QuackBehavior;
+import chapter_1.fly.FlyBehavior;
+import chapter_1.quack.QuackBehavior;
 
 public abstract class Duck {
     FlyBehavior flyBehavior;

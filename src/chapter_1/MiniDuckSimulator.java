@@ -1,9 +1,9 @@
-package chapter_1.testing_duck_code;
+package chapter_1;
 
-import chapter_1.testing_duck_code.ducks.Duck;
-import chapter_1.testing_duck_code.ducks.MallardDuck;
-import chapter_1.testing_duck_code.ducks.ModelDuck;
-import chapter_1.testing_duck_code.fly.FlyRocketPowered;
+import chapter_1.ducks.Duck;
+import chapter_1.ducks.MallardDuck;
+import chapter_1.ducks.ModelDuck;
+import chapter_1.fly.FlyRocketPowered;
 
 public class MiniDuckSimulator {
     public static void main(String[] args) {
@@ -15,5 +15,8 @@ public class MiniDuckSimulator {
         model.performFly();
         model.setFlyBehavior(new FlyRocketPowered());
         model.performFly();
+
+        DuckCall duckCall = new DuckCall();
+        duckCall.performQuack();
     }
 }

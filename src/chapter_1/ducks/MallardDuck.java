@@ -1,7 +1,7 @@
-package chapter_1.testing_duck_code.ducks;
+package chapter_1.ducks;
 
-import chapter_1.testing_duck_code.fly.FlyWithWings;
-import chapter_1.testing_duck_code.quack.Quack;
+import chapter_1.fly.FlyWithWings;
+import chapter_1.quack.Quack;
 
 public class MallardDuck extends Duck {
 

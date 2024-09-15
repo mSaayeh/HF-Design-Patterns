@@ -1,4 +1,4 @@
-package chapter_1.testing_duck_code.quack;
+package chapter_1.quack;
 
 public class Squeak implements QuackBehavior {
     @Override
