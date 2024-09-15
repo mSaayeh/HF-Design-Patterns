@@ -1,4 +1,4 @@
-package chapter_1.testing_duck_code;
+package chapter_1.testing_duck_code.ducks;
 
 import chapter_1.testing_duck_code.fly.FlyBehavior;
 import chapter_1.testing_duck_code.quack.QuackBehavior;
@@ -8,6 +8,14 @@ public abstract class Duck {
     QuackBehavior quackBehavior;
 
     public abstract void display();
+
+    public void setFlyBehavior(FlyBehavior fb) {
+        flyBehavior = fb;
+    }
+
+    public void setQuackBehavior(QuackBehavior qb) {
+        quackBehavior = qb;
+    }
 
     public void performFly() {
         flyBehavior.fly();

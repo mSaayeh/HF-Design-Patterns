@@ -1,4 +1,4 @@
-package chapter_1.testing_duck_code;
+package chapter_1.testing_duck_code.ducks;
 
 import chapter_1.testing_duck_code.fly.FlyWithWings;
 import chapter_1.testing_duck_code.quack.Quack;
